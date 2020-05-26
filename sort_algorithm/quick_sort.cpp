@@ -18,7 +18,7 @@ void quickSort(vector<int>& a,int low,int high){
     }
 }
 
-/*----------快排的变形，快速选择，用于解决TopK问题----------*/
+/*----------快排的变形，快速选择，用于解决TopK个最小数问题----------*/
 int partition(vector<int>& a,int low,int high){
     int pivot=a[low];
     while(low<high){
